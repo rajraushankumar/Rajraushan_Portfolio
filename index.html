@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-bracket"></span>
+                <span class="logo-text">RAJRAUSHAN KUMAR</span>
+                <span class="logo-bracket"></span>
+            </div>
+            <div class="nav-menu">
+                <a href="#hero" class="nav-item">Home</a>
+                <a href="#about" class="nav-item">About</a>
+                <a href="#education" class="nav-item">Education</a>
+                <a href="#projects" class="nav-item">Projects</a>
+                <a href="#skills" class="nav-item">Skills</a>
+                <a href="#certificates" class="nav-item">Certificates</a>
+                <a href="#contact" class="nav-item">Contact</a>
+            </div>
+            <button class="theme-toggle" id="themeToggle">
+                <span class="toggle-icon">◐</span>
+            </button>
+            <button class="mobile-toggle" id="mobileToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg">
+            <div class="grid-overlay"></div>
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-image-wrapper">
+                <div class="image-frame">
+                    <div class="frame-corner tl"></div>
+                    <div class="frame-corner tr"></div>
+                    <div class="frame-corner bl"></div>
+                    <div class="frame-corner br"></div>
+                    <img src="profile.jpeg" alt="Profile" class="hero-image">
+                   
+                </div>
+            </div>
+            <div class="hero-content">
+                <div class="hero-label">Hey, I'm</div>
+                <h1 class="hero-title">
+                    <span class="title-line">Rajraushan Kumar</span>
+                    <span class="title-line title-highlight">Full-Stack Developer | AI & ML Enthusiast</span>
+                    <span class="title-line">EXPERIENCES</span>
+                </h1>
+                <p class="hero-subtitle">Building reliable web applications and intelligent digital solutions while focusing on user experience, performance, and clean architecture.</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Let's Talk</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>Scroll</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number"></span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p class="lead">Hi, I'm Rajraushan Kumar, a BCA student specializing in Data Science & Artificial Intelligence at Gopal Narayan Singh University (GNSU). I'm passionate about technology, problem-solving, and building practical solutions using data and code.
+                        Currently, I'm focused on learning programming, machine learning fundamentals, and AI concepts, and I enjoy turning ideas into real projects through continuous experimentation and hands-on practice. I believe in learning by doing and improving every day.
+My goal is to grow as a skilled tech professional, contribute to meaningful projects, and build a strong foundation in data-driven and AI-based technologies.</p>
+
+                    <p>With expertise in modern web technologies, I transform ideas into polished, performant applications. My work spans from interactive interfaces to complete digital solutions.</p>
+                    <div class="skills-container">
+                        <div class="skill-category">
+                            <h3>Development</h3>
+                            <div class="skill-tags">
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">React</span>
+                                <span class="tag">Node.js</span>
+                                <span class="tag">TypeScript</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Design</h3>
+                            <div class="skill-tags">
+                                <span class="tag">UI/UX</span>
+                                <span class="tag">Figma</span>
+                                <span class="tag">Animation</span>
+                                <span class="tag">Prototyping</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-number">2+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">2+</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Client Satisfaction</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">∞</div>
+                            <div class="stat-label">Creative Ideas</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <!-- <span class="section-number">02</span> -->
+                <h2 class="section-title">Education</h2>
+            </div>
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2024 - 2027</div>
+                        <h3 class="timeline-title">Bachelor of Computer Applications (BCA)</h3>
+                        <div class="timeline-subtitle">Gopal Narayan Singh University (GNSU)</div>
+                        <p class="timeline-description">Specializing in Data Science & Artificial Intelligence. Building strong foundation in programming, machine learning, and AI technologies.</p>
+                        <div class="timeline-tags">
+                            <span class="tag-small">Data Science</span>
+                            <span class="tag-small">AI/ML</span>
+                            <span class="tag-small">Python</span>
+                            <span class="tag-small">Web Development</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2022 - 2024</div>
+                        <h3 class="timeline-title">Higher Secondary Education</h3>
+                        <div class="timeline-subtitle">R.L.S.Y.College</div>
+                        <p class="timeline-description">Completed with focus on Science and Mathematics, developing analytical and problem-solving skills.</p>
+                        <div class="timeline-tags">
+                            <span class="tag-small">Mathematics</span>
+                            <span class="tag-small">Science</span>
+                            <span class="tag-small">Computer Science</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <!-- <span class="section-number">03</span> -->
+                <h2 class="section-title">Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card" data-index="01">
+                    <div class="project-image">
+                        <div>
+                           <img src="projects.png" alt="">
+                        </div>
+                        
+                        <div class="project-placeholder">
+                            <div class="placeholder-pattern"></div>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://rajraushankumar.github.io/Quiz-Project/" class="project-link">View Project →</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-meta">
+                            <span class="project-category">Web App</span>
+                            <span class="project-year">Jan, 2026</span>
+                        </div>
+                        <h3 class="project-title">Online Quiz-Project</h3>
+                        <p class="project-description">A modern Quiz application made with HTML5.</p>
+                        <div class="project-tags">
+                            <span class="tag-small">Html</span>
+                            <span class="tag-small">Css</span>
+                            <span class="tag-small">JavaScript</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-index="02">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <div class="placeholder-pattern"></div>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">View Project →</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-meta">
+                            <span class="project-category">Mobile App</span>
+                            <span class="project-year">2024</span>
+                        </div>
+                        <h3 class="project-title">Fitness Tracker</h3>
+                        <p class="project-description">Track workouts, set goals, and monitor progress with beautiful data visualizations.</p>
+                        <div class="project-tags">
+                            <span class="tag-small">React Native</span>
+                            <span class="tag-small">Firebase</span>
+                            <span class="tag-small">Charts</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-index="03">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <div class="placeholder-pattern"></div>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">View Project →</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-meta">
+                            <span class="project-category">Dashboard</span>
+                            <span class="project-year">2023</span>
+                        </div>
+                        <h3 class="project-title">Analytics Dashboard</h3>
+                        <p class="project-description">Real-time data visualization for business intelligence and decision making.</p>
+                        <div class="project-tags">
+                            <span class="tag-small">Vue.js</span>
+                            <span class="tag-small">D3.js</span>
+                            <span class="tag-small">WebSocket</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-index="04">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <div class="placeholder-pattern"></div>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">View Project →</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-meta">
+                            <span class="project-category">Web App</span>
+                            <span class="project-year">2023</span>
+                        </div>
+                        <h3 class="project-title">Creative Portfolio</h3>
+                        <p class="project-description">Showcase platform for artists with interactive galleries and animations.</p>
+                        <div class="project-tags">
+                            <span class="tag-small">Next.js</span>
+                            <span class="tag-small">Framer</span>
+                            <span class="tag-small">Sanity</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <!-- <span class="section-number">04</span> -->
+                <h2 class="section-title">Technical Skills</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-group">
+                    <div class="skill-group-header">
+                        <span class="skill-icon">💻</span>
+                        <h3 class="skill-group-title">Frontend Development</h3>
+                    </div>
+                    <div class="skill-bars">
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label">
+                                <span>HTML/CSS</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label">
+                                <span>JavaScript</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label">
+                                <span>React.js</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-group">
+                    <div class="skill-group-header">
+                        <span class="skill-icon">⚙️</span>
+                        <h3 class="skill-group-title">Backend Development</h3>
+                    </div>
+                    <div class="skill-bars">
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label">
+                                <span>Node.js</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label">
+                                <span>Python</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label">
+                                <span>MongoDB</span>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-group">
+                    <div class="skill-group-header">
+                        <span class="skill-icon">🤖</span>
+                        <h3 class="skill-group-title">AI & Data Science</h3>
+                    </div>
+                    <div class="skill-bars">
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label">
+                                <span>Machine Learning</span>
+                                <span class="skill-percentage">65%</span>
+                            </div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" style="width: 65%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label">
+                                <span>Data Analysis</span>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label">
+                                <span>TensorFlow/Keras</span>
+                                <span class="skill-percentage">60%</span>
+                            </div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" style="width: 60%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-group">
+                    <div class="skill-group-header">
+                        <span class="skill-icon">🛠️</span>
+                        <h3 class="skill-group-title">Tools & Others</h3>
+                    </div>
+                    <div class="skill-bars">
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label">
+                                <span>Git & GitHub</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label">
+                                <span>Figma/UI Design</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label">
+                                <span>VS Code</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates">
+    <div class="container">
+        <h2 class="section-heading">Certificates</h2>
+        <div class="certs-grid">
+            
+            <!-- Certificate 1 -->
+            <div class="cert">
+                <a href="https://courses.ibmcep.cognitiveclass.ai/certificates/0274b6f3a97d4b82a8142882ef6cad04" target="_blank" class="cert-link">
+                    <img src="frontend.png" alt="Predictive Analytic Certificate" class="cert-image">
+                    <div class="cert-content">
+                        <h3>Front End Technologies</h3>
+                        <p class="issuer">IBM</p>
+                        <p class="date">April 25, 2025</p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Certificate 2 -->
+            <div class="cert">
+                <a href="https://courses.ibmcep.cognitiveclass.ai/certificates/cc422d42ad504f10aeb3ebce82eaabe8" target="_blank" class="cert-link">
+                    <img src="Predict.png" alt="Predictive Analytics using IBM SPSS Modeler - Foundations Course" class="cert-image">
+                    <div class="cert-content">
+                        <h3>Predictive Analytics using IBM SPSS Modeler - Foundations Course</h3>
+                        <p class="issuer">IBM</p>
+                        <p class="date">December 22, 2025</p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Certificate 3 - Add more as needed -->
+            <div class="cert">
+                <a href="https://verify.onwingspan.com" target="_blank" class="cert-link">
+                    <img src="infosys.png" alt="Certificate Name" class="cert-image">
+                    <div class="cert-content">
+                        <h3>R Programming for Beginners: Getting Started</h3>
+                        <p class="issuer">Infosys | Springboard</p>
+                        <p class="date">July 30, 2025</p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Certificate 4 - Add more as needed -->
+
+            <div class="cert">
+                <a href="#" target="_blank" class="cert-link">
+                    <img src="gnsu.png" alt="Certificate Name" class="cert-image">
+                    <div class="cert-content">
+                        <h3>Building Real-World AI Application</h3>
+                        <p class="issuer">Gopal Narayan Singh University</p>
+                        <p class="date">November 29, 2025</p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- 
+                <div class="certificate-card">
+                    <div class="certificate-icon">🤖</div>
+                    <div class="certificate-content">
+                        <h3 class="certificate-title">Machine Learning A-Z</h3>
+                        <div class="certificate-issuer">Udemy</div>
+                        <div class="certificate-date">2024</div>
+                        <p class="certificate-description">Hands-on Python & R in Data Science, covering regression, classification, clustering, and deep learning.</p>
+                        <a href="#" class="certificate-link">View Certificate →</a>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <div class="certificate-icon">📊</div>
+                    <div class="certificate-content">
+                        <h3 class="certificate-title">Data Science Fundamentals</h3>
+                        <div class="certificate-issuer">Coursera / Google</div>
+                        <div class="certificate-date">2023</div>
+                        <p class="certificate-description">Introduction to data analysis, visualization, and statistical thinking using Python and popular libraries.</p>
+                        <a href="#" class="certificate-link">View Certificate →</a>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <div class="certificate-icon">⚛️</div>
+                    <div class="certificate-content">
+                        <h3 class="certificate-title">React - The Complete Guide</h3>
+                        <div class="certificate-issuer">Udemy</div>
+                        <div class="certificate-date">2024</div>
+                        <p class="certificate-description">Advanced React concepts including Hooks, Context API, Redux, Next.js, and modern best practices.</p>
+                        <a href="#" class="certificate-link">View Certificate →</a>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <div class="certificate-icon">🎨</div>
+                    <div class="certificate-content">
+                        <h3 class="certificate-title">UI/UX Design Specialization</h3>
+                        <div class="certificate-issuer">Coursera</div>
+                        <div class="certificate-date">2023</div>
+                        <p class="certificate-description">User experience design fundamentals, prototyping, user research, and design thinking methodologies.</p>
+                        <a href="#" class="certificate-link">View Certificate →</a>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <div class="certificate-icon">🐍</div>
+                    <div class="certificate-content">
+                        <h3 class="certificate-title">Python for Data Science</h3>
+                        <div class="certificate-issuer">IBM / Coursera</div>
+                        <div class="certificate-date">2023</div>
+                        <p class="certificate-description">Python programming for data science, including NumPy, Pandas, Matplotlib, and Scikit-learn.</p>
+                        <a href="#" class="certificate-link">View Certificate →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <!-- <span class="section-number">06</span> -->
+                <h2 class="section-title">Get In Touch</h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3 class="contact-heading">Let's Create Something Amazing</h3>
+                    <p class="contact-text">Have a project in mind? Let's discuss how we can work together to bring your vision to life.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-label">Email</span>
+                            <a href="mailto:your.email@example.com" class="contact-value">rajraushankumar360@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label">Phone</span>
+                            <!-- <a href="tel:+1234567890" class="contact-value">+1 (234) 567-890</a> -->
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label">Location</span>
+                            <span class="contact-value">Aurangabad, Bihar</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/rajraushankumar" class="social-link">LinkedIn</a>
+                        <a href="https://github.com/rajraushankumar" class="social-link">GitHub</a>
+                        <a href="https://www.instagram.com/rajraushan_singh_rajput_?igsh=eGI0dTNsY3JrMTRo" class="social-link">Instagram</a>
+                        <a href="https://youtube.com/@rajraushanofficial?si=aegT_qhFV6GkSy8A" class="social-link">Youtube</a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="from_name" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="reply_to" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-textarea" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" id="sendBtn" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>© 2024 Rajraushan Kumar. All rights reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#hero">Back to Top ↑</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
