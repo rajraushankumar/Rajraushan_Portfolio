@@ -1010,7 +1010,7 @@ section {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 50px;
-    color: #333;
+    color:White;
     position: relative;
 }
 
@@ -1033,7 +1033,7 @@ section {
 }
 
 .cert {
-    background: rgb(0, 0, 0);
+    background: Black
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -1070,7 +1070,7 @@ section {
 .cert-content h3 {
     font-size: 1.3rem;
     margin-bottom: 12px;
-    color: #333;
+    color:white;
     font-weight: 600;
     line-height: 1.4;
 }
@@ -1083,7 +1083,7 @@ section {
 }
 
 .date {
-    color: #666;
+    color:rgb(255, 255, 255);
     font-size: 0.9rem;
 }
 
@@ -1525,3 +1525,46 @@ section {
         height: 16px;
     }
 }
+
+
+.project-card {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.project-card {
+    padding: 10px;
+    height: auto;        /* ❗ fixed height mat lagana */
+    overflow: visible;   /* ❗ hidden nahi hona chahiye */
+}
+
+.project-card button {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    display: block;      /* 👈 ye gap hata deta hai */
+    margin-bottom: 0;    /* extra space remove */
+}
+
+.project-card {
+    padding-bottom: 5px; /* niche ka space control */
+}
+
